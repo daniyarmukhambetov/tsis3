@@ -8,6 +8,6 @@ for i in aa:
 bb = [int(j) for j in input().split()]
 for j in bb:
     b.add(j)
-c = a.intersection(b)
-for cc in c:
-    print(cc,end=' ')
+
+for i in a.intersection(b):
+    print(i, end = ' ')
